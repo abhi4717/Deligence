@@ -102,10 +102,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Contents\lib\bootstrap\bootstrap-grid.min.css" />
+    <Content Include="Contents\lib\bootstrap\bootstrap-reboot.min.css" />
+    <Content Include="Contents\lib\bootstrap\bootstrap.min.css" />
     <Content Include="Global.asax" />
+    <Content Include="scripts\lib\bootsrap\bootstrap.bundle.min.js" />
+    <Content Include="scripts\lib\bootsrap\bootstrap.min.js" />
+    <Content Include="scripts\lib\jquery\jquery-3.2.1.min.js" />
+    <Content Include="scripts\lib\popper\popper.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\TaskController.cs" />
@@ -129,6 +137,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="scripts\views\Task\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

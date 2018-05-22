@@ -10,17 +10,42 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Dev|Any CPU = Dev|Any CPU
+		Integration|Any CPU = Integration|Any CPU
+		Prod|Any CPU = Prod|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Testing|Any CPU = Testing|Any CPU
+		UAT|Any CPU = UAT|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9154A1C3-D095-4D71-AFF2-51B34DF7EF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9154A1C3-D095-4D71-AFF2-51B34DF7EF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9154A1C3-D095-4D71-AFF2-51B34DF7EF00}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{9154A1C3-D095-4D71-AFF2-51B34DF7EF00}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{9154A1C3-D095-4D71-AFF2-51B34DF7EF00}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{9154A1C3-D095-4D71-AFF2-51B34DF7EF00}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{9154A1C3-D095-4D71-AFF2-51B34DF7EF00}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{9154A1C3-D095-4D71-AFF2-51B34DF7EF00}.Prod|Any CPU.Build.0 = Prod|Any CPU
 		{9154A1C3-D095-4D71-AFF2-51B34DF7EF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9154A1C3-D095-4D71-AFF2-51B34DF7EF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9154A1C3-D095-4D71-AFF2-51B34DF7EF00}.Testing|Any CPU.ActiveCfg = Testing|Any CPU
+		{9154A1C3-D095-4D71-AFF2-51B34DF7EF00}.Testing|Any CPU.Build.0 = Testing|Any CPU
+		{9154A1C3-D095-4D71-AFF2-51B34DF7EF00}.UAT|Any CPU.ActiveCfg = UAT|Any CPU
+		{9154A1C3-D095-4D71-AFF2-51B34DF7EF00}.UAT|Any CPU.Build.0 = UAT|Any CPU
 		{500425CC-92EE-43C1-9B3B-C0AC0E5C1356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{500425CC-92EE-43C1-9B3B-C0AC0E5C1356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500425CC-92EE-43C1-9B3B-C0AC0E5C1356}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{500425CC-92EE-43C1-9B3B-C0AC0E5C1356}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{500425CC-92EE-43C1-9B3B-C0AC0E5C1356}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{500425CC-92EE-43C1-9B3B-C0AC0E5C1356}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{500425CC-92EE-43C1-9B3B-C0AC0E5C1356}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{500425CC-92EE-43C1-9B3B-C0AC0E5C1356}.Prod|Any CPU.Build.0 = Prod|Any CPU
 		{500425CC-92EE-43C1-9B3B-C0AC0E5C1356}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{500425CC-92EE-43C1-9B3B-C0AC0E5C1356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{500425CC-92EE-43C1-9B3B-C0AC0E5C1356}.Testing|Any CPU.ActiveCfg = Testing|Any CPU
+		{500425CC-92EE-43C1-9B3B-C0AC0E5C1356}.Testing|Any CPU.Build.0 = Testing|Any CPU
+		{500425CC-92EE-43C1-9B3B-C0AC0E5C1356}.UAT|Any CPU.ActiveCfg = UAT|Any CPU
+		{500425CC-92EE-43C1-9B3B-C0AC0E5C1356}.UAT|Any CPU.Build.0 = UAT|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
